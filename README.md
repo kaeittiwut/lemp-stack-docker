@@ -6,18 +6,18 @@ Docker has become a frequently used solution for deploying applications thanks t
 
 ### V.1
 
-Nginx v1.21.x
-MariaDB v10.5.x
-PHP v7.4-fpm
-Laravel Framework v8.x
+> Nginx v1.21.x\
+> MariaDB v10.5.x\
+> PHP v7.4-fpm\
+> Laravel Framework v8.x
 
 ### V.2
 
-Nginx v1.21.x
-MariaDB v10.5.x
-PHP v7.4-fpm
-Laravel Framework v8.x
-phpMyAdmin v5.1.x
+> Nginx v1.21.x\
+> MariaDB v10.5.x\
+> PHP v7.4-fpm\
+> Laravel Framework v8.x\
+> phpMyAdmin v5.1.x
 
 ## Install all dependencies and migrate database
 
