@@ -66,6 +66,22 @@ services:
             retries: 3
             timeout: 5s
 
+    # phpMyAdmin - Service
+    phpmyadmin:
+        image: "phpmyadmin:latest"
+
+        ports:
+            - 8080:80
+
+        environment:
+            MYSQL_ROOT_PASSWORD: "${DB_PASSWORD}"
+
+        depends_on:
+            - db
+
+        networks:
+            - app-network
+
 # Volumes
 volumes:
     mariadbdata:
