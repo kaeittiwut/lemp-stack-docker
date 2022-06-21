@@ -42,6 +42,8 @@ cd example-app
 
 ## Running Docker
 
+Before do this, don't forget to COPY all files or do any magic on version that you want into your project repository folder.
+
 ```bash
 cp .env.example .env
 
@@ -51,6 +53,12 @@ docker-compose exec app bash
 
 php artisan key:generate
 ```
+
+## Application running at
+
+> Laravel => http://localhost:8100 <br />
+> phpMyAdmin => http://localhost:8080 <br />
+> MariaDB port: 3306
 
 ## Running Migrations
 
